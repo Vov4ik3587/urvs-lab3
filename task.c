@@ -18,7 +18,8 @@ static void sig_start(int signo) //Функция - обработчик сиг�
 
 void main()
 {
-    int status, pid1, pid2, pid, i;
+    int status, i;
+    pid_t pid1, pid2, pid;
     int pipe1[2], pipe2[2], sizeofbuf = 50;
     char buf[sizeofbuf], *info;
 
