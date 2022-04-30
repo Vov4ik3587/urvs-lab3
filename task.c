@@ -124,7 +124,6 @@ void main()
     else
     {
         //Сохраняем id потомка P1
-        pid1 = pid;
         wait(&status);
         printf("Родитель: Получение информации\n");
 
